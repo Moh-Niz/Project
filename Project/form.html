@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Request Form</title>
+</head>
+<body class="main-container">
+     <!-- Request Form -->
+     <header>
+        <h1 class="form-header"> Request Form </h1>
+     </header>
+     <main>
+        
+        <div class="container" id="requestForm">
+            <form action="index.html">
+            <div class="row">
+              <div class="col-25">
+                
+                <label for="fname"><i class='bx bx-user-circle bx-tada' ></i> Full  Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="fullname" placeholder="Moh-Sui" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname"><i class='bx bx-envelope bx-tada' ></i> Email</label>
+              </div>
+              <div class="col-75">
+                <input type="email" id="email" name="email" placeholder="Mohsui@gmail.com" required>
+              </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-25">
+                  <label for="gender"> <i class='bx bx-male-female' ></i> Gender</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio"id="gender" name="gender" value="gender">
+                    <label for="gender" class="gender">Male</label>
+    
+                    <input type="radio"id="gender" name="gender" value="gender">
+                    <label for="gender" class="gender">Female</label>
+    
+                    <input type="radio"id="gender" name="gender" value="gender">
+                    <label for="gender" class="gender">Prefer Not to Say</label>
+                   
+                  </select>
+                </div>
+              </div>
+    
+            <div class="row">
+              <div class="col-25">
+                <label for="universe"> <i class='bx bx-globe bx-spin bx-rotate-90'></i> Universe</label>
+              </div>
+              <div class="col-75">
+                <select id="universe" name="universe">
+                  <option value="asgard 1">Asgard 1</option>
+                  <option value="asgard 2">Asgard 2</option>
+                  <option value="asgard 3">Asgard 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject"> <i class='bx bx-chat' ></i> Comment</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+            <input type="submit" value="Submit" >
+              
+            </div>
+            </form>
+          </div>
+     </main>   
+     
+</body>
+</html>
