@@ -264,8 +264,8 @@ html, body {overflow-x: hidden}
 }
 
 .Asgard-img{
-    width: 100%;
-    height: auto;
+    width: 410px;
+    height: 410px;
     margin-left: 40px;
     /* background:#FFF8E7; */
     opacity: 0;
@@ -1171,7 +1171,7 @@ input[type=submit]::after {
 
 
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:700px) {
 
   .header {
 padding: 5px 5%;
@@ -1195,8 +1195,8 @@ padding: 5px 5%;
 
 .Asgard-img{
   margin-top: 50px;
-  height:auto;
-  width: 100%;
+  min-height: 300px;
+  width: 300px;
   margin-left: 0;
  
   /* background: 	#FFF8E7;
@@ -1405,7 +1405,7 @@ dt{
 
 }
 
-@media only screen and (min-width:801px) and (max-width: 1400px) {
+@media only screen and (min-width:701px), screen and (max-width: 1800px) and (orientation: landscape) {
 
   .Asgard_Moh-siu{
     justify-content: space-evenly;
@@ -1415,9 +1415,8 @@ dt{
   }
 
   .Asgard-img{
-    /* min-width: 400px; */
-    width: 100%;
-    height: auto;
+    min-width: 200px;
+    min-height: 200px;
     margin-left: 50px;
     margin-bottom: 50px;
 
@@ -1446,7 +1445,7 @@ dt{
     flex-direction: column;
     margin-left: 250px;
     padding:0;
-    /* margin-top: -50px; */
+    margin-top: -50px;
     width: 490px;
     
   }
